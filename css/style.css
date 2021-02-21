@@ -1,0 +1,30 @@
+.bgCover{
+    background-image:url("../img/bookcover.jpg") ;
+    background-position: center ;
+    background-size:cover;
+    height: 210px;
+    color:white;
+}
+.img{
+    width:100px ;
+    height: 100px; 
+    border-radius: 50%; 
+    margin-bottom: 10px;
+}
+
+h5{
+    color: darkgray;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.item{
+    text-align: center  ;
+}
+
+@media(min-width:768px) and (max-width:992px){
+  
+    .item{
+        text-align:left ;
+    }
+    
+}
